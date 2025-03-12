@@ -36,7 +36,7 @@ app.use(bodyParser.json())
 app.use(express.json());
 app.use(cookieParser())
 app.use(cors({
-  origin: ['https://www.harubook.cloud'],
+  origin: ['https://hotel-manager1.onrender.com'],
   credentials: true
 }));
 const port = process.env.PORT
